@@ -1,0 +1,46 @@
+.carousel-inner img {
+    max-height: 400px; /* Ajusta la altura como prefieras */
+    width: auto;
+    object-fit: contain; /* Muestra la imagen completa sin recortarla */
+}
+
+body {
+    background-color: #81c784 /* Color teal-100 */
+}
+
+#tablaPeliculas{
+    color: #81c784 /* Color teal-100 */
+}
+
+.bg-light-green {
+    background-color: #d4edda; /* Color similar a table-success */
+    color: #155724; /* Color de texto verde oscuro */
+}
+
+#botonMomento {
+    margin-top: 60px;  /* Ajusta el margen superior */
+    margin-bottom: 50px;  /* Ajusta el margen inferior */
+}
+
+
+ /* Estilos adicionales */
+ .ficha-pelicula {
+    margin-top: 50px;
+    border: 2px solid #28a745; /* Verde como el de la tabla */
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+.ficha-pelicula img {
+    width: 100%;  /* Ajuste de la imagen a la caja */
+    height: auto;
+    border-radius: 8px;
+}
+.titulo-pelicula {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #28a745;
+}
+.detalles .item {
+    margin-bottom: 10px;
+}
